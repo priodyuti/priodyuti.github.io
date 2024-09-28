@@ -1,0 +1,38 @@
+body{
+  background-color: rgb(59, 66, 64);
+}
+
+/* .Project{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+
+.Project .fac-content{
+  grid-column: 2/3;
+} */
+.Project .hr{
+  grid-column: 2/3;
+}
+
+.Project .proj-img img{
+  display: block;
+  width: 100%;
+  height: 400px;
+}
+
+.Project .proj-img figure{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height:auto;
+  text-align: center;
+}
+
+
+
+
+
+

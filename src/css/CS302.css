@@ -1,0 +1,116 @@
+.Courses{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 0.8fr 2.4fr 0.8fr;
+}
+.Courses .cont{
+    grid-column: 2/3;
+}
+.Courses .cont h1{
+    color: rgb(46, 112, 46);
+    font-weight: bold;
+}
+.Courses .cont p{
+    /* font-family: 'Lobster', cursive;  */
+    /* font-family: "Indie Flower", cursive; */
+    font-family: "Trirong", serif; 
+    font-size: 1.2rem;
+    word-spacing: 2px;
+}
+.Courses .cont .intro_p{
+    margin: 4.7rem 0px;
+}
+.Courses .cont .prereq_p{
+    padding: 0px 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Courses .cont h2{
+    font-family: 'Lobster', cursive; 
+    /* font-family: "Indie Flower", cursive; */
+    /* font-family: "Kaushan Script", cursive; */
+    /* font-family: "Pacifico", cursive; */
+    font-weight: bolder;
+    /* font-family: "Trirong", serif;  */
+    /* font-size: 1.2rem; */
+    /* word-spacing: 2px; */
+}
+.Courses .cont .objective,.conclusion{
+    padding: 1rem 5rem;
+}
+.Courses .cont .objective li,.conclusion li{
+    margin: 1.1rem 0px;
+    font-size: 1rem;
+    /* font-family: "Sofia", sans-serif;  */
+    /* font-family: "Audiowide", sans-serif; */
+    font-family: "Unknown Font", monospace;
+}
+
+.Courses .cont .syllabus{
+    padding: 0rem 4rem;
+}
+.Courses .cont .syllabus h3{
+    font-family: "Indie Flower", cursive;
+    cursor: pointer;
+}
+.Courses .cont .syllabus p{
+    font-size: 1rem;
+    padding: 0rem 3rem;
+}
+
+.Courses .cont .references{
+    padding: 0rem 4rem;
+    list-style: none;
+    font-size: 1.2rem;
+    margin-bottom: 7rem;
+}
+.Courses .cont .references a{
+    text-decoration: none;
+    color: rgb(102, 58, 143);
+}
+.Courses .cont .references a:hover{
+    text-decoration: underline;
+    color: rgb(185, 142, 226);
+}
+
+@media screen and (max-width: 900px) {
+    .Courses{
+      /* background-color: lightgreen; */
+      grid-template-columns: 0.5fr 3fr 0.5fr;
+    }
+    .Courses .cont h1{
+        font-size: 1.5rem;
+    }
+    .Courses .cont p{
+        font-family: "Trirong", serif; 
+        font-size: 0.8rem;
+        word-spacing: 1.7px;
+    }
+
+    .Courses .cont .prereq_p{
+        padding: 0px 1.5rem;
+    }
+    
+    .Courses .cont .objective,.conclusion{
+        padding: 0.5rem 2rem;
+    }
+    .Courses .cont .objective li,.conclusion li{
+        margin: 1rem 0px;
+        font-size: 0.8rem;
+    }
+
+    .Courses .cont .syllabus{
+        padding: 0rem 1.2rem;
+    }
+    .Courses .cont .syllabus h3{
+        font-size: 1.5rem;
+    }
+    .Courses .cont .syllabus p{
+        font-size: 0.7rem;
+        padding: 0rem 1.6rem;
+    }
+    .Courses .cont .references{
+        padding: 0rem 0.5rem;
+        font-size: 0.8rem;
+    }
+  }

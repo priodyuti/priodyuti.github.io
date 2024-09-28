@@ -1,0 +1,12 @@
+.highlights  .row {
+    height: 100vh; /* Adjust this value as needed */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.highlights .cont1, .highlights .cont2 {
+    height: 100%; /* Fill the height of the parent row */
+    overflow-y: auto; /* Enable vertical scrolling */
+    padding: 10px;
+    box-sizing: border-box; /* Ensure padding doesn't affect the overall size */
+}

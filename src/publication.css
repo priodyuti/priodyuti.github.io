@@ -1,0 +1,125 @@
+.pub1{
+  width: 100%;
+  /* grid-template-columns: 0.1fr 2.4fr 1.2fr; */
+}
+
+/* .pbs{
+  display: flex;
+  grid-column: 2/3;
+}
+.pub_img{
+  grid-column: 3/4;
+} */
+  
+  .Publication{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 0.2fr 2.6fr 0.2fr;
+  }
+  
+  .Publication .pub-content{
+    grid-column: 2/3;
+  }
+  .Publication .hr{
+    grid-column: 2/3;
+  }
+  
+  .Publication img{
+    width: 100%;
+    height: auto;
+    max-height: 90%;
+  }
+  
+  .Publication figure{
+    width: 100%;
+    height:auto;
+    text-align: center;
+  }
+  .Publication h5{
+    font-weight: bold;
+    font-style: italic;
+    font-family: initial;
+    letter-spacing: 0.1px;
+  }
+  .Publication h6{
+    font-family: serif;
+    letter-spacing: 0.9px;
+    word-spacing: 1.2px;
+    color: rgb(90, 74, 74);
+  }
+  .Publication .clink{
+    display: flex;
+    justify-content: left;
+  }
+  /* .Publication .clink a{
+    text-decoration: none;
+    color: rgb(98, 98, 190);
+  }
+  .Publication .clink a:hover{
+    text-decoration: underline;
+    color: rgb(185, 185, 240);
+  } */
+
+
+
+  .Publication span button,.Publication span a{
+    color: rgb(1, 66, 1);
+  }
+  .Publication a{
+    text-decoration: none;
+  }
+  .Publication span a:hover,button:hover{
+    text-decoration: underline;
+  }
+
+
+  .pub_img {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 0.1fr 2.8fr 0.1fr;
+  }
+  .carousel{
+    grid-column: 2/3;
+    width: 90%;
+    align-items: center;
+
+  }
+
+  .carousel-item img{
+    width :100%;
+    height: 50%;
+  }
+
+  .carousel-item {
+    position: relative;
+  }
+
+  .carousel-item a{
+    /* margin-top: -300px; */
+    position: absolute;
+    bottom: 0;
+    text-decoration: none;
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 0 rgb(18, 53, 125);
+
+  }
+
+
+
+  @media (max-width: 768px) {
+    .pub_img{
+      position: relative;
+      grid-template-columns: 0.8fr 5.8fr 0.001fr;
+      z-index: -1;
+    }
+    .pub{
+      margin-top: 0.1rem !important;
+    }
+
+  }
+

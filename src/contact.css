@@ -1,0 +1,36 @@
+.contact{
+    /* height: 20%; */
+    /* position: relative; */
+    display: grid;
+    grid-template-columns: 0.2fr 4.4fr 0.4fr;
+}
+.contact .contact-cont{
+    margin-top: 6rem;
+    grid-column: 2/3;
+}
+.contact h2{
+    font-weight: bolder;
+    color: rgb(179, 123, 123);
+}
+.contact ul{
+    list-style: none;
+}
+.contact li{
+    padding: 1rem 0.8rem;
+}
+.contact li p{
+    font-weight: 500;
+}
+
+/* .map {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  } */
+
+
+@media (max-width: 700px){
+    .contact ul{
+        flex-direction: column;
+    }
+}

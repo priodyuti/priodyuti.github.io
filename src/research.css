@@ -1,0 +1,52 @@
+.research{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 0.5fr 2.4fr 0.5fr;
+}
+.research .content{
+    margin-top: 1.5rem;
+    grid-column: 2/3;
+}
+.research p{
+    font-family: "Trirong", serif; 
+    font-size: 1.2rem;
+    word-spacing: 2px;
+    text-align: justify;
+}
+.research figure{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+.research figure .btn{
+    padding-top: 20px;
+    display: block;
+    width: 15rem;
+    /* background: black; */
+    position: relative;
+}
+.research figure button{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-top: 10px;
+    background: none;
+    border: none;
+    text-decoration: none;
+    color:rgb(155, 155, 154);
+    font-weight: bold;
+}
+
+.research figure button:hover{
+    color:rgb(29, 29, 27);
+    font-weight: bold;
+}
+.research img{
+    display: block;
+    width: 45%;
+    height: auto;
+}
